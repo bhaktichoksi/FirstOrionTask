@@ -1,0 +1,33 @@
+Steps that I have followed to complete this task:
+------------------------------------------------
+Downloaded latest Android-studio and updated latest SDK in to project
+Configured Kotlin dependencies and created a project module
+Worked on MVVM coding structure
+Parsed Json API using Retrofit in kotlin
+Created a recycler adapter and bind all items using view holder pattern
+Displayed all data as per the UI provided in a document
+
+Tasks:
+-----
+a. List of all the Posts – the main screen
+Parsed all Users data from this link "https://jsonplaceholder.typicode.com/posts" using retrofit API.
+Stored all data using shared prefernces so that no need to call API multiple times.
+
+b. User details (combined with the Post info) – when a Post is clicked
+Created floating action button for a new Fragment which will be created when a Post is clicked.
+
+c. Create a new Post – allows users to create and upload a new Post.
+I have given validations and used fake API to post user data into main page. 
+I got a link from this site - https://jsonplaceholder.typicode.com/guide/
+and I have used "https://jsonplaceholder.typicode.com/posts" API and pass all the parameters using 
+POST method and with this 'Content-type': 'application/json; charset=UTF-8'
+
+Note: For posting a data, I have checked into postman and I successfully got a JSON response after creating a post.
+However, It was not reflecting into main POST API as I have read on a site that;
+"resource will not be really updated on the server but it will be faked as if"
+
+Build an APK which is attached in this zip file.
+
+Thank You
+Bhakti Choksi
+
